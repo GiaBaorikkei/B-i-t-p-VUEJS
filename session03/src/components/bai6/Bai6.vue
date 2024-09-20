@@ -1,6 +1,6 @@
 <template>
     <div>
-      <button @click="handleClick('Rekkei Academy')">Get param</button>
+      <button @click="handleClick('Rikkei Academy')">Get param</button>
     </div>
   </template>
   

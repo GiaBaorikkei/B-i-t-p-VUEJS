@@ -7,6 +7,7 @@
   import Ex6 from "./components/bai6/Bai6.vue"
   import Ex7 from "./components/bai7/Bai7.vue"
   import Ex8 from "./components/bai8/Bai8.vue"
+  import Ex9 from "./components/bai9/Bai9.vue"
 </script>
 
 <template>
@@ -34,6 +35,9 @@
     <br>
     <h1>Bài 8</h1>
     <Ex8/>
+    <br>
+    <h1>Bài 9</h1>
+    <Ex9/>
   </div>
 </template>
 
