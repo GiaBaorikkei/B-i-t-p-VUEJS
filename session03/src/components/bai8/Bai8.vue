@@ -1,6 +1,6 @@
 <template>
     <div class="link"> 
-      <a href="https://www.facebk.com" @click="checkLink">Link sai</a>
+      <a href="htps://www.facebook.com" @click="checkLink">Link sai</a>
       <a href="https://www.facebook.com" @click="checkLink">Link đúng</a>
     </div>
   </template>
