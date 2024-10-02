@@ -23,6 +23,9 @@
     <br>
     <h2>Bài 8</h2>
     <Bai8/>
+    <br>
+    <h2>Bài 9</h2>
+    <Bai9/>
   </div>
 </template>
 <script setup>
@@ -34,6 +37,7 @@ import Bai5 from './components/Bai5.vue';
 import Bai6 from './components/Bai6.vue';
 import Bai7 from './components/Bai7.vue';
 import Bai8 from './components/Bai8.vue';
+import Bai9 from './components/Bai9.vue';
 
 </script>
 <style>
