@@ -25,10 +25,15 @@
     <br>
     <h2>Bài 9</h2>
     <Bai9/>
+    <br>
+    <h2>Bài 10</h2>
+    <Bai10/>
+    <br>
   </div>
 </template>
 <script setup>
 import Bai1 from './components/Bai1.vue';
+import Bai10 from './components/Bai10.vue';
 import Bai2 from './components/Bai2.vue';
 import Bai3 from './components/Bai3.vue';
 import Bai4 from './components/Bai4.vue';

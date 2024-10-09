@@ -14,10 +14,7 @@
     <RouterLink to='/'>click home</RouterLink>
     <RouterLink to='/contact'>click contact</RouterLink>
     <h1>Bài 7</h1>
-    <RouterLink to='/' exact-active-class="active">click home</RouterLink>
-    <RouterLink to='/product' exact-active-class="active">click Product</RouterLink>
-    <RouterLink to='/detail' exact-active-class="active">click Detail</RouterLink>
-    <br>
+    <Header></Header>
     <h1>Bài 8</h1>
     <Navbar/>
     <RouterView/>
@@ -25,7 +22,7 @@
 </template>
 <script setup>
 import Navbar from './views/Navbar.vue';
-
+import Header from './views/Header.vue';
 </script>
 <style>
   .active {
