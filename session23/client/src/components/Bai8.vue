@@ -9,14 +9,6 @@
         </li>
       </ul>
   
-      <h2>Cập nhật sinh viên</h2>
-      <input type="text" v-model="updateStudent.student_name" placeholder="Tên sinh viên" />
-      <input type="email" v-model="updateStudent.email" placeholder="Email" />
-      <input type="text" v-model="updateStudent.address" placeholder="Địa chỉ" />
-      <input type="text" v-model="updateStudent.phone" placeholder="Số điện thoại" />
-      <input type="checkbox" v-model="updateStudent.status" /> Hoạt động
-      <button @click="updateStudentById">Cập nhật sinh viên</button>
-  
       <div v-if="isModalVisible" class="modal">
         <div class="modal-content">
           <h3>Xác nhận xóa</h3>
@@ -71,15 +63,6 @@
   
   const editUser = (user) => {
     updateStudent.value = { ...user };
-  };
-  
-  const updateStudentById = async () => {
-    try {
-      const res = await axios.put(`http://localhost:3000/users/${updateStudent.value.id}`, updateStudent.value);
-      getAllStudent();
-    } catch (error) {
-      console.error("Lỗi khi cập nhật sinh viên:", error);
-    }
   };
   
   onMounted(() => {
