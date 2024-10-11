@@ -30,7 +30,7 @@
     address: '',
     phone: '',
     status: false,
-    created_at: new Date().toISOString().split('T')[0], // Lưu ngày tạo hiện tại
+    created_at: new Date().toISOString().split('T')[0], 
   });
   
   const getAllStudent = async () => {
