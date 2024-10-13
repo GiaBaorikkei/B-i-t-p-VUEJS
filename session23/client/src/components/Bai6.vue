@@ -63,7 +63,6 @@
     getAllStudent();
   });
   </script>
-  
   <style>
   </style>
   
