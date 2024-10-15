@@ -1,0 +1,28 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"Balo học sinh",
+            "price": 50,
+            "quantity": 10,
+            "description": "Balo đi học màu trà sữa siêu xinh – Balo Lipinhui – Hàng có sẵn – Nâu trà sữa",
+            "image":"https://product.hstatic.net/1000281824/product/img_6753_7cb6011bd47f487592e367ea7f73ccfe_master.jpeg"
+        },
+        {
+            "id":2,
+            "name":"Balo đi chơi",
+            "price": 25,
+            "quantity": 7,
+            "description": "Phong cách hiện đại, thiết kế cá tính, trẻ trung., Chất liệu Polyester cao cấp bền bỉ, trượt nước, chống bám bụi và dễ dàng vệ sinh",
+            "image":"https://bizweb.dktcdn.net/100/343/358/products/balo-hoc-sinh-cap-1-883-xanh-den-hong-magic-girl-2.jpg?v=1671512598337"
+        },
+        {
+            "id":3,
+            "name":"Balo du lịch",
+            "price": 35,
+            "quantity": 12,
+            "description": "Vải dù nhập khẩu có độ bền cao, bề mặt vải trượt nước. Bên trong dùng vải lót mềm mịn chống xước.",
+            "image":"https://conmasstore.com/wp-content/uploads/2023/02/f774e169d3ed09b350fc.jpg"
+        }
+    ]
+}
